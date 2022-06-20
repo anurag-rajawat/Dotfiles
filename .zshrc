@@ -133,5 +133,5 @@ alias kgd="kubectl get deployments"
 #export PATH=$PATH:$GOPATH/bin
 #export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
-# Added for Jkube
+# Expose docker daemon 
 eval $(minikube docker-env)
