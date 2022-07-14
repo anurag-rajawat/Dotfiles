@@ -116,3 +116,38 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Aliases
+# Git
+
+ga='git add'
+gaa='git add --all'
+gb='git branch'
+gbD='git branch -D'
+gco='git checkout'
+gcsm='git commit -s -m'
+gd='git diff'
+ggpull='git pull origin "$(git_current_branch)"'
+ggpush='git push origin "$(git_current_branch)"'
+glg='git log --stat'
+glo='git log --oneline --decorate'
+glog='git log --oneline --decorate --graph'
+grb='git rebase'
+grba='git rebase --abort'
+grbc='git rebase --continue'
+gst='git status'
+gstc='git stash clear'
+gstd='git stash drop'
+gstl='git stash list'
+
+# Maven
+mci='mvn clean install'
+
+# K8S
+alias k='kubectl'
+alias kgp='kubectl get pods'
+alias kg='kubectl get'
+alias kgd='kubectl get deployments'
+
+# Ubuntu
+alias instal='sudo apt update && sudo apt install -y'
+alias uninstal='sudo apt remove -y
