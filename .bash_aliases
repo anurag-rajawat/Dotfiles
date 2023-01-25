@@ -1,11 +1,10 @@
-# Aliases
 # Git
-
 alias ga='git add'
 alias gaa='git add --all'
 alias gb='git branch'
 alias gbD='git branch -D'
 alias gco='git checkout'
+alias gcb='git checkout -b'
 alias gcsm='git commit -s -m'
 alias gd='git diff'
 alias ggpull='git pull origin "$(git_current_branch)"'
