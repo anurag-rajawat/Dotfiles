@@ -99,11 +99,12 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sona="systemctl poweroff -i"
+
+alias bye="systemctl poweroff -i"
 alias upgrade="sudo apt update && sudo apt upgrade -y"
 alias instal="sudo apt update && sudo apt install -y"
 alias uninstal="sudo apt remove -y"
-alias safai="sudo apt autoremove -y && sudo apt autoclean"
+alias cleanup="sudo apt autoremove -y && sudo apt autoclean"
 alias open="xdg-open"
 alias p="python3"
 alias update="sudo apt update"
