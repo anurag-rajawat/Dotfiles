@@ -1,3 +1,5 @@
+# Some aliases for Gitpod
+
 # Git
 alias ga='git add'
 alias gaa='git add --all'
