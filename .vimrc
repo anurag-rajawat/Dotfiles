@@ -90,3 +90,17 @@ set statusline+=\ row:\ %l\ col:\ %c\ percent:\ %p%%
 set laststatus=2
 
 " }}}
+
+" PLUGINS ---------------------------------------------------------------- {{{
+
+" Plugin code goes here.
+
+call plug#begin('~/.vim/plugged')
+
+  Plug 'dense-analysis/ale'
+
+  Plug 'preservim/nerdtree'
+
+call plug#end()
+
+" }}}
