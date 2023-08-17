@@ -104,3 +104,6 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " }}}
+
+set backspace=indent,eol,start
+
