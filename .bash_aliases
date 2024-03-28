@@ -1,3 +1,8 @@
+# Ubuntu
+alias bat=batcat
+alias instal="sudo apt update && sudo apt install -y"
+alias uinstal="sudo apt uninstall -y"
+
 # k8s
 alias k=kubectl
 alias kg="kubectl get"
